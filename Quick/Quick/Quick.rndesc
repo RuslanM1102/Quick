@@ -1,0 +1,9 @@
+﻿<RengaPlugin>
+	<Name>Quick</Name>
+	<Version>1.0</Version>
+	<Copyright>by Mamedov Ruslan</Copyright>
+	<RequiredAPIVersion>2.24</RequiredAPIVersion>
+	<PluginType>Net</PluginType>
+	<PluginFilename>D:\MyRengaPlugins\Quick\Quick\bin\Debug\Quick.dll</PluginFilename>
+	<Vendor>-</Vendor>
+</RengaPlugin>
