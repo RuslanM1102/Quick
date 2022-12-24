@@ -152,7 +152,7 @@ namespace Quick
     }
     public static class DictionaryExtension
     {
-        public static bool CompareDictionaryByKeys<TKey,TValue>(this Dictionary<TKey,TValue> firstDictionary, 
+        public static bool CompareDictionaryByKeysAndValues<TKey,TValue>(this Dictionary<TKey,TValue> firstDictionary, 
             Dictionary<TKey, TValue> secondDictionary, List<TKey> keys)
         {
             foreach (TKey key in keys)

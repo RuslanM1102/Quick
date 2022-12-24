@@ -101,10 +101,10 @@ namespace Quick
             {
                 Dictionary<string, object> objectParameters = modelObject.GetParameters().ToDictionary();
                 Dictionary<string, object> objectProperties = modelObject.GetProperties().ToDictionary();
-                bool isValid = objectParameters.CompareDictionaryByKeys(originalParameters, parametersToSearch);
+                bool isValid = objectParameters.CompareDictionaryByKeysAndValues(originalParameters, parametersToSearch);
                 if (isValid)
                 {
-                    isValid = objectProperties.CompareDictionaryByKeys(originalProperties, propertiesToSearch);
+                    isValid = objectProperties.CompareDictionaryByKeysAndValues(originalProperties, propertiesToSearch);
                 }
                 if (isValid)
                 {
