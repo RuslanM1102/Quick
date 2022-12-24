@@ -122,11 +122,6 @@ namespace Quick
             
         }
 
-        [dropDownButtonFunction("Выделитва")]
-        private void Test(object sender, EventArgs args)
-        {
-
-        }
         public void Stop()
         {
             foreach(ActionEventSource actionEventSource in _actionEventSources)

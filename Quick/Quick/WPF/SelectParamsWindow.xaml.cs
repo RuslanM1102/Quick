@@ -32,7 +32,6 @@ namespace Quick
         {
             List<string> parameterNames = _parameterContainer.ToList().Select(x => x.Definition.Name).ToList();
             parameterNames.Sort();
-            List<CheckBox> checkBoxes = new List<CheckBox>();
             foreach(string parameterName in parameterNames)
             {
                 CheckBox checkBox = new CheckBox();
